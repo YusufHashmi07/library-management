@@ -1,0 +1,80 @@
+:root {
+  --app-ink: #18222f;
+  --app-soft: #f3f7fb;
+  --app-accent: #0b5ed7;
+  --nav-bg: #163149;
+}
+
+body {
+  margin: 0;
+  color: var(--app-ink);
+  background: linear-gradient(120deg, #eff7ff 0%, #f5f9ff 45%, #e6f0ff 100%);
+}
+
+.app-bg {
+  background: radial-gradient(circle at 100% 0%, rgba(11, 94, 215, 0.08), transparent 45%),
+    radial-gradient(circle at 0% 100%, rgba(34, 124, 112, 0.12), transparent 35%);
+}
+
+.app-nav {
+  background: linear-gradient(90deg, var(--nav-bg), #23507a);
+}
+
+.login-page {
+  background: linear-gradient(145deg, #dbefff, #f4f9ff);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+  border-radius: 16px;
+}
+
+.hero-shell {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  background: radial-gradient(circle at 15% 15%, rgba(34, 124, 112, 0.16), transparent 35%),
+    radial-gradient(circle at 85% 85%, rgba(11, 94, 215, 0.18), transparent 40%);
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 18px;
+}
+
+.hero-tag {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: #2a6e63;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card {
+  border-radius: 14px;
+  min-height: 128px;
+}
+
+.stat-books {
+  background: #d9f1ff;
+}
+
+.stat-issued {
+  background: #fff2d8;
+}
+
+.stat-returned {
+  background: #ddf7e8;
+}
+
+.stat-students {
+  background: #f0e6ff;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
